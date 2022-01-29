@@ -12,7 +12,6 @@ redirect = '127.0.0.1'
 website_list = ["www.instagram.com", "instagram.com"]
 
 # while loop does is it execute an action very fast.
-#def block_websites(start_hour , end_hour):
 while True:
     if dt(dt.now().year, dt.now().month, dt.now().day,9)< dt.now() < dt(dt.now().year, dt.now().month, dt.now().day,18):
         print("don't sneak out, Do the work ....") 
