@@ -15,9 +15,6 @@ website_list = ["www.instagram.com", "instagram.com"]
 #def block_websites(start_hour , end_hour):
 while True:
     if dt(dt.now().year, dt.now().month, dt.now().day,9)< dt.now() < dt(dt.now().year, dt.now().month, dt.now().day,18):
-        #each iteration you apply a conditional that says if a list item in content where content Is a text you have from the host file.
-        #So if that item is in the content then don't do anything otherwise add that item in the host file.
-        #We have methods to write content, methods to append content in that file but not to delete. so we need to
         print("don't sneak out, Do the work ....") 
         with open (host, 'r+') as file:
            content = file.read()
